@@ -1,0 +1,186 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    margin: 0;
+    padding: 0;
+    color: #1e293b;
+}
+
+.form-container {
+    width: 350px;
+    margin: 70px auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    text-align: center;
+    color: #1d4ed8;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+button {
+    width: 100%;
+    padding: 11px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+.message {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+/* User table container */
+.table-container {
+    width: 85%;
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* User table */
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Table heading */
+.user-table th {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table data */
+.user-table td {
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+}
+
+/* Alternate row colours */
+.user-table tr:nth-child(even) {
+    background-color: #f1f5f9;
+}
+
+/* Table hover effect */
+.user-table tr:hover {
+    background-color: #dbeafe;
+}
+
+/* Login error message */
+.error {
+    color: #dc2626;
+    background-color: #fee2e2;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Registration link */
+.register-link {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #2563eb;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.register-link a:hover {
+    color: #1d4ed8;
+}
+
+
+/* Update link */
+.update-link {
+    color: #2563eb;
+    text-decoration: underline;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/* Delete form */
+.delete-form {
+    display: inline;
+}
+
+/* Delete button */
+.delete-button {
+    width: auto;
+    padding: 5px 10px;
+    background-color: #dc2626;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.delete-button:hover {
+    background-color: #b91c1c;
+}
+
+/* Cancel link */
+.cancel-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.cancel-link a {
+    color: #2563eb;
+    text-decoration: underline;
+}
+
+/* Action column */
+.user-table td:last-child {
+    white-space: nowrap;
+}
+
+
