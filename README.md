@@ -15,12 +15,16 @@ This project is developed as part of Lab 5b for the Web Development course. It d
 - Database Name: Lab_5b
 - Table Name: users
 
-### Table Fields
-| Field | Data Type |
-| matric | VARCHAR(10) |
-| name | VARCHAR(100) |
+
+## Table Fields
+
+| Field    | Data Type    |
+|----------|--------------|
+| matric   | VARCHAR(10)  |
+| name     | VARCHAR(100) |
 | password | VARCHAR(255) |
-| role | VARCHAR(10) |
+| role     | VARCHAR(10)  |
+
 
 ## System Features
 1. User Registration
